@@ -6,8 +6,6 @@
 
 void Zadacha41()
 {
-
-    Random rand = new Random();
     Console.WriteLine("Введите длину будущего массива: ");
     int size = Convert.ToInt32(Console.ReadLine());
     int[] numbers = new int[size];
@@ -43,6 +41,5 @@ void Zadacha41()
         Console.WriteLine("\n");
     }
 }
-
 
 Zadacha41();
