@@ -19,7 +19,7 @@ void Zadacha41()
     {
         if (numbers[i] > 0) summ++;
     }
-    Console.WriteLine("Количество положительных чисел в числе: " + summ);
+    Console.WriteLine("Количество положительных чисел в массиве: " + summ);
 
     void FillArray(int[] numbers)
     {
